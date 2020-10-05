@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/client_pdf/static/css/main.5f361e03.chunk.css",
+    "main.js": "/client_pdf/static/js/main.35708675.chunk.js",
+    "main.js.map": "/client_pdf/static/js/main.35708675.chunk.js.map",
+    "runtime-main.js": "/client_pdf/static/js/runtime-main.c9692816.js",
+    "runtime-main.js.map": "/client_pdf/static/js/runtime-main.c9692816.js.map",
+    "static/js/2.f5011422.chunk.js": "/client_pdf/static/js/2.f5011422.chunk.js",
+    "static/js/2.f5011422.chunk.js.map": "/client_pdf/static/js/2.f5011422.chunk.js.map",
+    "index.html": "/client_pdf/index.html",
+    "precache-manifest.8ed7215d9078540e06cc3969b555c3d6.js": "/client_pdf/precache-manifest.8ed7215d9078540e06cc3969b555c3d6.js",
+    "service-worker.js": "/client_pdf/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/client_pdf/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f5011422.chunk.js.LICENSE.txt": "/client_pdf/static/js/2.f5011422.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/client_pdf/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9692816.js",
+    "static/js/2.f5011422.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.35708675.chunk.js"
+  ]
+}
