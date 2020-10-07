@@ -5,9 +5,8 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 // import { Document, Page, Text, View, StyleSheet, PDFViewer } from '@react-pdf/renderer';
 
-import ff from './samp.pdf'
-import { Document, Page , pdfjs} from 'react-pdf';
-import Sample from './samp';
+ import { Document, Page , pdfjs} from 'react-pdf';
+ 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function MyApp() {
@@ -22,8 +21,7 @@ function MyApp() {
   return (
     <div>
       <Document
-        file={ff}
-        onLoadSuccess={onDocumentLoadSuccess}
+         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} />
       </Document>
@@ -34,9 +32,11 @@ function MyApp() {
 
 
 
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <Sample />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

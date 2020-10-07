@@ -25,8 +25,8 @@ export default class Sample extends React.Component {
     handleCHange = () => {
         this.setState({ pageNumber: this.state.pageNumber + 1 })
         console.log('CLick');
-        
-          
+
+
     }
 
     render() {
@@ -63,7 +63,7 @@ export default class Sample extends React.Component {
                         {/* <button onClick={() => this.setState(prevState => ({ numPages: prevState.numPages + 1 }))}>
 Next page
 </button> */}
-                        <button onClick={ this.handleCHange}>  Next page</button>
+                        <button onClick={this.handleCHange}>  Next page</button>
                     </div>
                 </div>
             </div>
